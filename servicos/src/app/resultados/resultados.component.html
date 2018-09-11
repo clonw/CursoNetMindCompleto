@@ -1,0 +1,9 @@
+<h3>Listado de Partidos</h3>
+<ul>
+    <li *ngFor="let partido of resultados |  async">
+        Nombre: <b>{{partido.nombre}}</b> Diputados: <b>{{partido.dipus}}</b> 
+        <img src="http://
+cursosdedesarrollo.com/pactometro/img/{{partido.imagen}}" width="90px"
+height="40px"/> 
+    </li>
+</ul>

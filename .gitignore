@@ -1,0 +1,119 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+
+/paco
+
+/servicos/dist
+/servicos/tmp
+/servicos/out-tsc
+
+# dependencies
+/servicos/node_modules
+
+# IDEs and editors
+/servicos/.idea
+/servicos/.project
+/servicos/.classpath
+/servicos/.c9/
+/servicos/*.launch
+/servicos/.settings/
+/servicos/*.sublime-workspace
+
+# IDE - VSCode
+/servicos/.vscode/*
+/servicos/!.vscode/settings.json
+/servicos/!.vscode/tasks.json
+/servicos/!.vscode/launch.json
+/servicos/!.vscode/extensions.json
+
+# misc
+/servicos/.sass-cache
+/servicos/connect.lock
+/servicos/coverage
+/servicos/libpeerconnection.log
+/servicos/npm-debug.log
+/servicos/yarn-error.log
+/servicos/testem.log
+/servicos/typings
+
+# System Files
+/servicos/.DS_Store
+/servicos/Thumbs.db
+
+# Ejercicio 3
+
+/ejercicio3/dist
+/ejercicio3/tmp
+/ejercicio3/out-tsc
+
+# dependencies
+/ejercicio3/node_modules
+
+# IDEs and editors
+/ejercicio3/.idea
+/ejercicio3/.project
+/ejercicio3/.classpath
+/ejercicio3/.c9/
+/ejercicio3/*.launch
+/ejercicio3/.settings/
+/ejercicio3/*.sublime-workspace
+
+# IDE - VSCode
+/ejercicio3/.vscode/*
+/ejercicio3/!.vscode/settings.json
+/ejercicio3/!.vscode/tasks.json
+/ejercicio3/!.vscode/launch.json
+/ejercicio3/!.vscode/extensions.json
+
+# misc
+/ejercicio3/.sass-cache
+/servicos/connect.lock
+/servicos/coverage
+/ejercicio3/libpeerconnection.log
+/ejercicio3/npm-debug.log
+/ejercicio3/yarn-error.log
+/ejercicio3/testem.log
+/ejercicio3/typings
+
+# System Files
+/ejercicio3/.DS_Store
+/ejercicio3/Thumbs.db
