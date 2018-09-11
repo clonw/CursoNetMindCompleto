@@ -106,8 +106,8 @@ Thumbs.db
 
 # misc
 /ejercicio3/.sass-cache
-/servicos/connect.lock
-/servicos/coverage
+/ejercicio3/connect.lock
+/ejercicio3/coverage
 /ejercicio3/libpeerconnection.log
 /ejercicio3/npm-debug.log
 /ejercicio3/yarn-error.log
@@ -117,5 +117,47 @@ Thumbs.db
 # System Files
 /ejercicio3/.DS_Store
 /ejercicio3/Thumbs.db
+
+/miangularapp/*
+
+
+#Unidad 6
+
+/unidad6/dist
+/unidad6/tmp
+/unidad6/out-tsc
+
+# dependencies
+/unidad6/node_modules
+
+# IDEs and editors
+/unidad6/.idea
+/unidad6/.project
+/unidad6/.classpath
+/unidad6/.c9/
+/unidad6/*.launch
+/unidad6/.settings/
+/unidad6/*.sublime-workspace
+
+# IDE - VSCode
+/unidad6/.vscode/*
+/unidad6/!.vscode/settings.json
+/unidad6/!.vscode/tasks.json
+/unidad6/!.vscode/launch.json
+/unidad6/!.vscode/extensions.json
+
+# misc
+/unidad6/.sass-cache
+/unidad6/connect.lock
+/unidad6/coverage
+/unidad6/libpeerconnection.log
+/unidad6/npm-debug.log
+/unidad6/yarn-error.log
+/unidad6/testem.log
+/unidad6/typings
+
+# System Files
+/unidad6/.DS_Store
+/unidad6/Thumbs.db
 
 /miangularapp/*
