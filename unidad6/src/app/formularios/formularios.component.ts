@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Persona} from '../modelo/persona';
 @Component({
   selector: 'app-formularios',
   templateUrl: './formularios.component.html',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormulariosComponent implements OnInit {
 
-  constructor() { }
+  sexos: string[] = ['Hombre', 'Mujer', 'Otros'];
+  orientaciones: string[] = ['Hombre', 'Mujer', 'Otros'];
+
+  model: Persona;
+  constructor() {
+    this.model = new Persona('', '', '', '', '', '', '', false);
+  }
 
   ngOnInit() {
   }
 
+  submit() {
+  }
 }
