@@ -161,3 +161,43 @@ Thumbs.db
 /unidad6/Thumbs.db
 
 /miangularapp/*
+
+
+# RUTAS
+
+/rutas/dist
+/rutas/tmp
+/rutas/out-tsc
+
+# dependencies
+/rutas/node_modules
+
+# IDEs and editors
+/rutas/.idea
+/rutas/.project
+/rutas/.classpath
+/rutas/.c9/
+/rutas/*.launch
+/rutas/.settings/
+/rutas/*.sublime-workspace
+
+# IDE - VSCode
+/rutas/.vscode/*
+/rutas/!.vscode/settings.json
+/rutas/!.vscode/tasks.json
+/rutas/!.vscode/launch.json
+/rutas/!.vscode/extensions.json
+
+# misc
+/rutas/.sass-cache
+/rutas/connect.lock
+/rutas/coverage
+/rutas/libpeerconnection.log
+/rutas/npm-debug.log
+/rutas/yarn-error.log
+/rutas/testem.log
+/rutas/typings
+
+# System Files
+/rutas/.DS_Store
+/rutas/Thumbs.db
