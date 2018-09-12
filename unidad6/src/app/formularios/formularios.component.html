@@ -54,43 +54,21 @@
         </div>
 
         <!-- RELACIÓN -->
-
-
-
-
-
         <div class="form-group">
-            <label for="alterEgo">Alter Ego</label>
-            <input type="text" class="form-control" id="alterEgo" [(ngModel)]="model.alterEgo" name="alterEgo">
+            <label for="power">Tipo de relación</label>
+            <select class="form-control" id="relacion" required [(ngModel)]="model.relacion" name="relacion" #orientacion="ngModel">
+              <option *ngFor="let relacion of relaciones" [value]="relacion">{{relacion}}</option>
+            </select>
         </div>
 
-        <div class="checkbox">
-            <label for="status"><input type="checkbox" class="" id="status"
-                                   [(ngModel)]="model.status" name="status"/>Status</label>
-        </div>
+      <!-- CONDICIONES DE USO -->
 
-
-
-        <div class="radio">
-            <label for="sex-man"><input type="radio" class="" id="sex-man"
-                                  [(ngModel)]="model.sex" name="sex" value="man">Man</label>
-
-            <label for="sex-woman"><input type="radio" class="" id="sex-woman"
-                                    [(ngModel)]="model.sex" name="sex" value="woman">Woman</label>
-
-        </div>
-
-        <div class="form-group">
-            <label for="power">Hero Power</label>
-            <select class="form-control" id="power" required [(ngModel)]="model.power" name="power" #power="ngModel">
-        <option *ngFor="let pow of powers" [value]="pow">{{pow}}</option>
-      </select>
-            <div [hidden]="power.valid || power.pristine" class="alert alert-danger">
-                Power is required
-            </div>
-        </div>
-        <button type="submit" class="btn btn-success" [disabled]="!heroForm.form.valid">Submit</button>
-        <button type="button" class="btn btn-default" (click)="newHero(); heroForm.reset()">New Hero</button>
+      <div class="checkbox">
+        <label for="condiciones"><input type="checkbox" class="" id="condiciones"
+                               [(ngModel)]="model.condiciones" name="condiciones"/>Condiciones</label>
+    </div>
+    
+        <button type="submit" class="btn btn-success" [disabled]="!tinderForm.form.valid">Submit</button>
     </form>
     <div [hidden]="!submitted">
         <h2>You submitted the following:</h2>
@@ -99,14 +77,21 @@
             <div class="col-xs-9  pull-left">{{ model.name }}</div>
         </div>
         <div class="row">
-            <div class="col-xs-3">Alter Ego</div>
-            <div class="col-xs-9 pull-left">{{ model.alterEgo }}</div>
+            <div class="col-xs-3">Email</div>
+            <div class="col-xs-9 pull-left">{{ model.email }}</div>
         </div>
         <div class="row">
-            <div class="col-xs-3">Power</div>
-            <div class="col-xs-9 pull-left">{{ model.power }}</div>
+            <div class="col-xs-3">Sexo</div>
+            <div class="col-xs-9 pull-left">{{ model.sex}}</div>
         </div>
-        <br>
+        <div class="row">
+          <div class="col-xs-3">Orientación</div>
+          <div class="col-xs-9 pull-left">{{ model.orientacion}}</div>
+        </div> <div class="row">
+            <div class="col-xs-3">Relación</div>
+            <div class="col-xs-9 pull-left">{{ model.relacion}}</div>
+        </div>
+      <br>
         <button class="btn btn-primary" (click)="submitted=false">Edit</button>
     </div>
     <div class="container">
