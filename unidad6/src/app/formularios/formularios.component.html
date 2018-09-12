@@ -65,10 +65,10 @@
 
       <div class="checkbox">
         <label for="condiciones"><input type="checkbox" class="" id="condiciones"
-                               [(ngModel)]="model.condiciones" name="condiciones"/>Condiciones</label>
+                               [(ngModel)]="model.condiciones" name="condiciones" required="required"/>Condiciones</label>
     </div>
     
-        <button type="submit" class="btn btn-success" [disabled]="!tinderForm.form.valid">Submit</button>
+        <button type="submit" (click)='submit()' class="btn btn-success" [disabled]="!tinderForm.form.valid">Submit</button>
     </form>
     <div [hidden]="!submitted">
         <h2>You submitted the following:</h2>
