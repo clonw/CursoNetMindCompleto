@@ -20,18 +20,18 @@ Unidad 04: Patrones
 
 Unidad 05: API Rest
  Presentación de la Unidad 05: API REST Archivo
- Envío de formularios URL
+ Envío de formularios URL: https://www.sitepoint.com/forms-file-uploads-security-node-express/
  Ejercicios de la Unidad 05: Ejercicios Básicos Tarea
- Práctica: Crear un Esqueleto de Aplicación URL
+ Práctica: Crear un Esqueleto de Aplicación URL: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website
  Ejercicio de rutas y controladores Tarea
 
 Unidad 06: ORM
  Presentación de la Unidad 06: ORM Archivo
- Práctica de ORM URL
- Práctica: Rutas y Controladores URL
- Ejemplo de uso de mongoose URL
+ Práctica de ORM URL :  https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
+ Práctica: Rutas y Controladores URL: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website
+ Ejemplo de uso de mongoose URL: https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications
  Ejercicio Inclusión del ORM en Rutas y Controladores Tarea
- Uso de Consultas de Relaciones URL
+ Uso de Consultas de Relaciones URL: https://mongoosejs.com/docs/populate.html
 
 Unidad 07: App completa
  Presentación de la Unidad 07: App Completa Archivo
