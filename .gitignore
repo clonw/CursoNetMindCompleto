@@ -201,3 +201,9 @@ Thumbs.db
 # System Files
 /rutas/.DS_Store
 /rutas/Thumbs.db
+
+
+
+###### NODE
+
+/*/*/node_modules

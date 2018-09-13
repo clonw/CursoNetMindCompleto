@@ -1,0 +1,14 @@
+{
+  "name": "mi-modulo",
+  "version": "1.0.0",
+  "description": "Mi módulo de pruebas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LiberbankIT",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
